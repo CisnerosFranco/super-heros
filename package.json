@@ -1,5 +1,6 @@
 {
   "name": "super-heros",
+  "homepage": "https://cisnerosfranco.github.io/super-heros",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
