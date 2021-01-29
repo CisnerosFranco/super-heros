@@ -1,0 +1,150 @@
+/* CSS Document */
+.marvel-team {
+  background-color: #a4152c !important; }
+
+.dc-team {
+  background-image: linear-gradient(to top, #09203f 0%, #0f436b 100%) !important; }
+
+.slick-slider {
+  width: 100vw;
+  height: 100vh; }
+  .slick-slider .slick-prev {
+    position: absolute !important;
+    left: 15px !important;
+    z-index: 1000; }
+  .slick-slider .slick-next {
+    position: absolute;
+    right: 15px;
+    z-index: 1000;
+    opacity: 0.7; }
+  .slick-slider .slick-list {
+    padding: 0px !important;
+    width: 100% !important;
+    height: 100%; }
+    .slick-slider .slick-list .slick-slide {
+      width: 300px !important;
+      height: 100vh !important;
+      padding: 0px !important;
+      margin: 20px !important; }
+      .slick-slider .slick-list .slick-slide .card-wrapper {
+        margin: 20px 0 0 0 !important;
+        padding: 0 !important; }
+
+.box {
+  width: 300px;
+  height: 80% !important;
+  background-color: #1e1e26;
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box; }
+  .box .logoTeam {
+    height: 40px;
+    padding: 10px;
+    opacity: 0.5; }
+  .box .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; }
+    .box .details p {
+      font-family: calibri;
+      font-weight: bold;
+      color: #6a6a74;
+      text-align: center;
+      margin-top: 20px; }
+  .box .logo {
+    height: 60px; }
+
+.model {
+  height: 350px;
+  max-height: 100%;
+  max-width: 100%;
+  transition: 0.2s; }
+
+.box:hover {
+  background-color: #17171d;
+  transform-style: preserve-3d;
+  transform: scale(1.02);
+  transition: all ease 0.3s; }
+  .box:hover .logoTeam {
+    opacity: 1; }
+  .box:hover .team {
+    color: #c0292b;
+    transition: all ease 0.5s; }
+  .box:hover .model {
+    /*efecto 3D desde el modulo react-tilty*/
+    transform: translateZ(30px); }
+
+.slick-dots {
+  position: absolute !important;
+  bottom: 20px !important;
+  margin: auto !important;
+  z-index: 1000;
+  display: block !important;
+  bottom: 2.5vw;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center; }
+  .slick-dots li {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center; }
+    .slick-dots li button {
+      border-radius: 50%;
+      height: 5px !important;
+      width: 5px !important;
+      background-color: rgba(255, 255, 255, 0.418) !important;
+      transition: 0.2s linear; }
+    .slick-dots li button:before {
+      display: none; }
+    .slick-dots li.slick-active button, .slick-dots li:hover button {
+      background-color: #2c2c2c96 !important; }
+
+/*--responsive for mobile phone--*/
+@media (max-width: 620px) {
+  .slick-slider {
+    width: 100vw;
+    height: 100vh; }
+    .slick-slider .slick-prev {
+      position: absolute !important;
+      left: 15px !important;
+      z-index: 1000; }
+    .slick-slider .slick-next {
+      position: absolute;
+      right: 15px;
+      z-index: 1000;
+      opacity: 0.7; }
+    .slick-slider .slick-list {
+      padding: 0px !important;
+      width: 100% !important;
+      height: 100%; }
+      .slick-slider .slick-list .slick-slide {
+        width: 100vw !important;
+        height: 100vh !important;
+        padding: 0px !important;
+        margin: 0px !important; }
+        .slick-slider .slick-list .slick-slide .card-wrapper {
+          margin: 0 !important;
+          padding: 0 !important;
+          display: flex !important;
+          justify-content: center;
+          align-items: center;
+          padding-top: 10vh !important; }
+          .slick-slider .slick-list .slick-slide .card-wrapper .card {
+            width: 80% !important; }
+    .slick-slider .slick-tract {
+      border: 1px solid red; }
+  .box {
+    width: 100% !important;
+    margin: 0 !important; }
+  .model {
+    height: 250px; }
+  .details p {
+    font-size: 16px;
+    width: 250px; } }
