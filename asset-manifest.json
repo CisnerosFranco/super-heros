@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/super-heros/static/css/main.05ad7df1.chunk.css",
-    "main.js": "/super-heros/static/js/main.8a0fdec8.chunk.js",
-    "main.js.map": "/super-heros/static/js/main.8a0fdec8.chunk.js.map",
-    "runtime-main.js": "/super-heros/static/js/runtime-main.f17a60c9.js",
-    "runtime-main.js.map": "/super-heros/static/js/runtime-main.f17a60c9.js.map",
-    "static/css/2.eb7c4865.chunk.css": "/super-heros/static/css/2.eb7c4865.chunk.css",
-    "static/js/2.7659bc28.chunk.js": "/super-heros/static/js/2.7659bc28.chunk.js",
-    "static/js/2.7659bc28.chunk.js.map": "/super-heros/static/js/2.7659bc28.chunk.js.map",
-    "index.html": "/super-heros/index.html",
-    "static/css/2.eb7c4865.chunk.css.map": "/super-heros/static/css/2.eb7c4865.chunk.css.map",
-    "static/css/main.05ad7df1.chunk.css.map": "/super-heros/static/css/main.05ad7df1.chunk.css.map",
-    "static/js/2.7659bc28.chunk.js.LICENSE.txt": "/super-heros/static/js/2.7659bc28.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "/super-heros/static/media/slick.c94f7671.ttf"
+    "main.css": "/static/css/main.05ad7df1.chunk.css",
+    "main.js": "/static/js/main.8a0fdec8.chunk.js",
+    "main.js.map": "/static/js/main.8a0fdec8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b8a6d03d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b8a6d03d.js.map",
+    "static/css/2.165ff965.chunk.css": "/static/css/2.165ff965.chunk.css",
+    "static/js/2.7659bc28.chunk.js": "/static/js/2.7659bc28.chunk.js",
+    "static/js/2.7659bc28.chunk.js.map": "/static/js/2.7659bc28.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.165ff965.chunk.css.map": "/static/css/2.165ff965.chunk.css.map",
+    "static/css/main.05ad7df1.chunk.css.map": "/static/css/main.05ad7df1.chunk.css.map",
+    "static/js/2.7659bc28.chunk.js.LICENSE.txt": "/static/js/2.7659bc28.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f17a60c9.js",
-    "static/css/2.eb7c4865.chunk.css",
+    "static/js/runtime-main.b8a6d03d.js",
+    "static/css/2.165ff965.chunk.css",
     "static/js/2.7659bc28.chunk.js",
     "static/css/main.05ad7df1.chunk.css",
     "static/js/main.8a0fdec8.chunk.js"
