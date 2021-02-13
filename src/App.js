@@ -4,7 +4,7 @@ import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 import './styles/css/App.css';
 import './styles/css/Sala-heros.css';
 import './styles/css/lightslider.css';
-import 'bootstrap/dist/css/bootstrap.css'
+
 
 import { Marvel, DC } from './recursos/recursos'
 import Sala from './pages/sala';
