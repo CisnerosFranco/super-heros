@@ -1,9 +1,10 @@
 import React, { Component, Fragment } from 'react';
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 
 import './styles/css/App.css';
 import './styles/css/Sala-heros.css';
 import './styles/css/lightslider.css';
+import 'bootstrap/dist/css/bootstrap.css'
 
 import { Marvel, DC } from './recursos/recursos'
 import Sala from './pages/sala';
@@ -26,7 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div ref={el => this._el = el}>
+        <div className=''>
           <Switch> 
             <Route exact sensitive path="/dc-team" render={() => (<Sala  herosList={DC} className="dc-team"/>)} />
             <Route exact strict sensitive path="/marvel-team" render={() => (<Sala herosList={Marvel} className="marvel-team"/>)} />
