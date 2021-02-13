@@ -43,7 +43,7 @@ const Marvel = [
     },
     {
         id : 7,
-        Hero : './img/Deadpool.png',
+        Hero : './img/DeadPool.png',
         Logo : './img/Deadpool-logo.png',
         Team : './img/marvel.png',
         Message : 'Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.'
@@ -63,7 +63,7 @@ const DC = [
     {
         id : 2,
         Hero : './img/batman_v.png',
-        Logo : './img/Logo-batman.png',
+        Logo : './img/Logo-Batman.png',
         Team : './img/DC_Comics_logo.png',
         Message : 'Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.'
     },
@@ -97,7 +97,7 @@ const DC = [
     },
     {
         id : 7,
-        Hero : './img/jocker_v.png',
+        Hero : './img/jocker_V.png',
         Logo : './img/logo-joker.png',
         Team : './img/DC_Comics_logo.png',
         Message : 'Bruce Bayne invite deadpool to kill the enemy how make distrub bat To the Kill The Anymens How MaKE him will be ie.'

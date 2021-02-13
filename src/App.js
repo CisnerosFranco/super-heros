@@ -9,18 +9,18 @@ import './styles/css/lightslider.css';
 import { Marvel, DC } from './recursos/recursos'
 import Sala from './pages/sala';
 import Main from './pages/main';
-import path from 'path';
+
 
 
 class App extends React.Component {
  links = [
     {
       url : '/dc-team', 
-      urlImage : '../img/DC_Comics_logo.png'
+      urlImage : './img/DC_Comics_logo.png'
     },
     {
       url : '/marvel-team',
-      urlImage : '../img/marvel.png'
+      urlImage : './img/marvel.png'
     }
   ]
 
