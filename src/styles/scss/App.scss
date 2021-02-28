@@ -8,6 +8,7 @@ body {
     position: relative;
     background-image: url('../uno.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 .container-main{
@@ -59,6 +60,7 @@ body {
 }
 
 @media (max-width: 700px) {
+    
     .container-main {
         padding: 0 !important;
         height: 100vh !important;
